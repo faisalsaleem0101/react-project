@@ -11,8 +11,8 @@ function ScoreCard(props: ScoreCardInterface) {
             <div className="bg-white rounded-lg p-1 border-2 flex items-center justify-between px-4 py-2">
                 <h1 className="font-bold">{props.title}</h1>
                 <p className="font-bold">|</p>
-                <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center p-6`} style={{ borderColor: `${props.color}` }}>
-                    <p className="font-bold" style={{ color: `${props.color}` }}>{props.score}</p>
+                <div className={`w-5 h-5 rounded-full border-4 flex items-center justify-center p-6`} style={{ borderColor: `${props.color}` }}>
+                    <p className="font-[900]" style={{ color: `${props.color}` }}>{props.score}</p>
                 </div>
             </div>
             <p>{props.description}</p>
